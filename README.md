@@ -19,7 +19,6 @@ Built with ❤️ using:
 - Netlify (for deployment)
 
 ## 🌐 Live Demo
-
-[Click here to view deployed site]: https://precious-druid-109d7f.netlify.app/
+[Click here to view deployed site](https://precious-druid-109d7f.netlify.app/)
 
 
