@@ -1,0 +1,67 @@
+/* Light/Dark mode base styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  transition: background 0.4s, color 0.4s;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #111;
+}
+
+.dark-mode {
+  background-color: #111;
+  color: #ffffff;
+}
+
+/* Carousel video */
+
+video,
+img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+
+/* Custom button and section styles */
+.btn-glow {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  box-shadow: 0 0 10px #007bff;
+  transition: 0.3s ease;
+}
+.btn-glow:hover {
+  box-shadow: 0 0 20px #007bff;
+  transform: scale(1.05);
+}
+section#about {
+  background: linear-gradient(to right, #f8f9fa, #ffffff);
+  border-top: 2px solid #eee;
+  border-bottom: 2px solid #eee;
+}
+
+footer {
+  font-size: 0.9rem;
+  border-top: 2px solid #444;
+}
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000; /* match loader background if needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: opacity 0.5s ease;
+}
+
+#loader video {
+  width: 220px;
+  height: auto;
+  object-fit: contain;
+}
